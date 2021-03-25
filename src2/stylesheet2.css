@@ -1,0 +1,112 @@
+body {
+  font-family: monospace;
+  text-align: center;
+  color: black;
+}
+
+P {
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
+#first {
+  height: 200px;
+  width: 260px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#first:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), white);
+}
+
+#second {
+  height: 100px;
+  width: 90%;
+  background: #ffffff;
+  opacity: 0.7;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.back {
+  padding: 10px;
+  transition: all 200ms ease-in-out;
+  border-radius: 20px;
+}
+.back:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), white);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+Img {
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+Video {
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  max-width: 100%;
+}
+
+Iframe {
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  max-width: 100%;
+}
+
+header button {
+  border-radius: 30px;
+  width: 130px;
+  height: 25px;
+  border: 0;
+  padding-inline: 30px;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+  margin-inline: 40px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.video {
+  display: block;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 50px 25px 50px 25px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  max-width: 50%;
+  transition: all 200ms ease-in-out;
+}
+.video:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), white);
+}

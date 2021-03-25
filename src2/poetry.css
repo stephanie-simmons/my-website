@@ -1,0 +1,84 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  font-family: monospace;
+}
+
+header {
+  margin-top: 20px;
+}
+
+header button {
+  border-radius: 30px;
+  width: 130px;
+  height: 25px;
+  border: 0;
+  padding-inline: 30px;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+  margin-inline: 40px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: monospace;
+}
+
+h2 {
+  color: black;
+}
+img {
+  height: 475px;
+  vertical-align: middle;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  max-width: 100%;
+}
+
+div {
+  display: inline-block;
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  max-width: 100%;
+  transition: 200ms ease;
+}
+
+div:hover {
+  color: white;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), white);
+}
+
+.one {
+  margin: 40px;
+  margin-bottom: 40px;
+}
+.two {
+  margin: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  color: black;
+  font-size: 1.5em;
+}
